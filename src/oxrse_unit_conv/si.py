@@ -31,3 +31,6 @@ mol = mole
 
 candela = classes.SIUnit("candela", "cd")
 cd = candela
+
+joule = classes.SIUnit("joule", "j")
+j = joule

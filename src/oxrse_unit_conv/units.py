@@ -30,3 +30,8 @@ lb = pound
 # mole
 
 # candela
+
+# joule
+
+calories = Unit(name='calorie', abbr='cal', si=joule, to_si_fun=lambda n: n * 4.184)
+cal=calories
